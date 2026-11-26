@@ -1,0 +1,42 @@
+[
+  {
+    "id": "proof-11",
+    "scope": [
+      "data-catalogue",
+      "namespace-import"
+    ],
+    "issuer": "joint-panel",
+    "day": 4
+  },
+  {
+    "id": "east-sign",
+    "site": "east",
+    "shared_proof": "proof-11",
+    "accepted": [
+      "data-catalogue"
+    ],
+    "pending": [
+      "legacy-import"
+    ],
+    "day": 6
+  },
+  {
+    "id": "south-sign",
+    "site": "south",
+    "shared_proof": "proof-11",
+    "accepted": [
+      "data-catalogue",
+      "namespace-import"
+    ],
+    "day": 8
+  },
+  {
+    "id": "amend-11",
+    "for": "proof-11",
+    "scope": [
+      "data-catalogue"
+    ],
+    "received_day": 13,
+    "reason": "仅核验目录"
+  }
+]

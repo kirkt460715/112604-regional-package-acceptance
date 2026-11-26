@@ -1,0 +1,36 @@
+[
+  {
+    "id": "advance-a",
+    "bundle": "standard-A",
+    "amount": 160000,
+    "day": 3
+  },
+  {
+    "id": "paid-east",
+    "site": "east",
+    "claims": [
+      "data-catalogue"
+    ],
+    "amount": 180000,
+    "day": 9
+  },
+  {
+    "id": "claim-s",
+    "site": "south",
+    "claims": [
+      "data-catalogue",
+      "namespace-import"
+    ],
+    "amount": 210000,
+    "day": 11
+  },
+  {
+    "id": "claim-w",
+    "site": "west",
+    "claims": [
+      "data-catalogue"
+    ],
+    "amount": 480000,
+    "day": 11
+  }
+]

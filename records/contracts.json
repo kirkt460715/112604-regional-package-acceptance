@@ -1,0 +1,59 @@
+[
+  {
+    "id": "group-1",
+    "bundle": "standard-A",
+    "version": 1,
+    "common": "data-catalogue",
+    "participants": [
+      "east",
+      "south",
+      "west"
+    ],
+    "common_cents": 480000,
+    "shares": {
+      "east": 180000,
+      "south": 150000,
+      "west": 150000
+    }
+  },
+  {
+    "id": "east-order",
+    "site": "east",
+    "depends": [
+      "data-catalogue"
+    ],
+    "extras": [
+      "legacy-import"
+    ],
+    "extra_cents": 90000
+  },
+  {
+    "id": "south-order",
+    "site": "south",
+    "depends": [
+      "data-catalogue"
+    ],
+    "extras": [
+      "namespace-import"
+    ],
+    "extra_cents": 60000
+  },
+  {
+    "id": "west-order",
+    "site": "west",
+    "depends": [
+      "data-catalogue"
+    ],
+    "extras": []
+  },
+  {
+    "id": "new-terms",
+    "effective_day": 12,
+    "bundle": "standard-A",
+    "version": 2,
+    "withdrawable": [
+      "legacy-import"
+    ],
+    "new_sites_only": true
+  }
+]
